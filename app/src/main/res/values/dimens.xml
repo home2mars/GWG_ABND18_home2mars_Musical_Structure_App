@@ -1,0 +1,14 @@
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">88dp</dimen>
+
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="big_padding">32dp</dimen>
+
+    <dimen name="textview_8_size">8sp</dimen>
+    <dimen name="textview_16_size">16sp</dimen>
+    <dimen name="textview_24_size">24sp</dimen>
+    <dimen name="textview_48_size">48sp</dimen>
+
+</resources>

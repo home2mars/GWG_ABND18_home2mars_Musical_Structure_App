@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/song_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/song_name" />
+
+    <TextView
+        android:id="@+id/artist_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/artist_name" />
+
+    <TextView
+        android:id="@+id/album_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/album_name" />
+
+    <Button
+        android:id="@+id/play_song_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_text" />
+
+</LinearLayout>
